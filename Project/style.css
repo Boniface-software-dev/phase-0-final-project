@@ -7,38 +7,83 @@ body {
 }
 
 header {
-    background: #333;
-    color: white;
-    padding: 15px;
+    background: gold;
+    color: black;
     text-align: center;
+    padding: 20px;
 }
 
-nav ul {
+.slogan {
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.about {
+    text-align: center;
+    padding: 40px;
+    background: white;
+}
+
+.about p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.engineer-img {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.portfolio, .contact {
+    text-align: center;
+    padding: 40px;
+}
+
+.portfolio ul {
     list-style: none;
     padding: 0;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
+.portfolio ul li {
+    margin: 10px 0;
 }
 
-nav ul li a {
-    color: white;
+.portfolio ul li a {
     text-decoration: none;
+    color: blue;
+    font-weight: bold;
 }
 
-section {
-    padding: 20px;
-    text-align: center;
+.contact a {
+    color: #007bff;
+    text-decoration: black;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #007bff;
 }
 
 footer {
-    background: #333;
-    color: white;
+    background: gold;
+    color: black;
     text-align: center;
     padding: 10px;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
